@@ -13,9 +13,13 @@ public class UtilsTest {
 
 	@Test
 	public void isAboTest() {
+		//fails
 //		assertTrue(Utils.isValidABOWrong("18432071"));
 		assertTrue(Utils.isValidABO("18432071"));
 		assertTrue(Utils.isValidABO("123457"));
+		
+		//works even though implementation is wrong.
+		//should you choose too narrow testing set, tests won't fail despite the fact they should!
 		assertTrue(Utils.isValidABOWrong("123"));
 	}
 	
