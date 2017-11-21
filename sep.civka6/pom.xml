@@ -43,7 +43,40 @@
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>com.vaadin</groupId>
+			<artifactId>vaadin-testbench</artifactId>
+			<version>5.0.0</version>
+			<scope>test</scope>
+		</dependency>
+		
+<!-- 		<dependency> -->
+<!-- 			<artifactId>guava</artifactId> -->
+<!-- 			<groupId>com.google.guava</groupId> -->
+<!-- 			<version>22.0.0</version> -->
+<!-- 			<scope>test</scope> -->
+<!-- 		</dependency> -->
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<scope>test</scope>
+<!-- 			<exclusions> -->
+<!-- 				<exclusion> -->
+<!-- 					<artifactId>guava</artifactId> -->
+<!-- 					<groupId>com.google.guava</groupId> -->
+<!-- 				</exclusion> -->
+<!-- 			</exclusions> -->
+		</dependency>
 	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>vaadin-addons</id>
+			<url>http://maven.vaadin.com/vaadin-addons</url>
+		</repository>
+	</repositories>
 
 	<build>
 		<plugins>
