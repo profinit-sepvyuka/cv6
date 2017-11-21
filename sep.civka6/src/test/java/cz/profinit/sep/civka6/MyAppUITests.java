@@ -13,7 +13,7 @@ import com.vaadin.testbench.ScreenshotOnFailureRule;
 import com.vaadin.testbench.TestBench;
 import com.vaadin.testbench.TestBenchTestCase;
 
-public class MyAppTests extends TestBenchTestCase {
+public class MyAppUITests extends TestBenchTestCase {
 	private String baseUrl;
 
 	@Rule
