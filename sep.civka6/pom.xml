@@ -98,7 +98,4 @@
 		</dependencies>
 	</dependencyManagement>
 
-	<modules>
-		<module>?</module>
-	</modules>
 </project>
