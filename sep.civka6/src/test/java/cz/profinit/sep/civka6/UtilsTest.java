@@ -14,7 +14,8 @@ public class UtilsTest {
 	@Test
 	public void isAboTest() {
 		//fails
-//		assertTrue(Utils.isValidABOWrong("18432071"));
+		assertTrue(Utils.isValidABOWrong("18432071"));
+		
 		assertTrue(Utils.isValidABO("18432071"));
 		assertTrue(Utils.isValidABO("123457"));
 		
